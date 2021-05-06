@@ -1,0 +1,54 @@
+/* mobiles phones */
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+      margin-top: 100px;
+    display: block;
+    width: 100vw;
+    height: 75vh;
+  }
+  .text {
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-family: "Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .text p{
+      text-align: center;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 35vh;
+    margin-left: 35px;
+    margin-left: 35px;
+  }
+  .rate {
+    width: 100vw;
+  }
+  .rate h5{
+      display: block;
+      margin-left: auto;
+  }
+  .cards{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .card{
+      margin-top: 20px ;
+      margin-left: 100px;
+  }
+  
+}

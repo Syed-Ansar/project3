@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position:top 0% left -5%,top 20% left 170% ;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+.text {
+  width: 440px;
+  height: 235px;
+  color: hsl(300, 43%, 22%);
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.text p {
+  color: hsl(303, 10%, 53%);
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 550px;
+  height: 235px;
+}
+.rate {
+  width: 450px;
+  height: 55px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+}
+.rate h5 {
+  display: inline-block;
+  justify-content: center;
+  color: hsl(300, 43%, 22%);
+  font-family: "Spartan", sans-serif;
+  font-size: 13px;
+}
+.rate img {
+  margin-left: 5px;
+}
+.rate img:nth-child(1) {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.rate img:nth-child(5) {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+/* cards */
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* height: 50vh; */
+}
+.card {
+  width: 350px;
+  padding: 40px 30px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+.cards .head {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card img {
+  margin-right: 25px;
+  width: 15%;
+  border-radius: 100%;
+}
+.card h5 {
+  margin-bottom: 5px;
+  color: hsl(300, 24%, 96%);
+  font-family: "Spartan", sans-serif;
+  font-size: 14px;
+}
+.card .head {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Spartan", sans-serif;
+  font-weight: lighter;
+  color: hsl(333, 80%, 67%);
+  font-size: 12px;
+  margin-top: 2px;
+}
+.card p {
+  color: hsl(300, 24%, 96%);
+  font-family: "Spartan", sans-serif;
+  text-align: left;
+  font-weight:normal;
+  font-size: 15px;
+  margin-top: 30px;
+  line-height: 1.4;
+}
+
